@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T18:32:25 PST" name="Default suite" finished-at="2023-12-05T18:32:35 PST" duration-ms="9673">
+    <groups>
+    </groups>
+    <test started-at="2023-12-05T18:32:25 PST" name="Default test" finished-at="2023-12-05T18:32:35 PST" duration-ms="9673">
+      <class name="ToolsQA_TC.Tests_NF_PracticeForms">
+        <test-method signature="Test_PracticeForm_01()[pri:0, instance:ToolsQA_TC.Tests_NF_PracticeForms@72f926e6]" started-at="2023-12-05T18:32:25 PST" name="Test_PracticeForm_01" finished-at="2023-12-05T18:32:35 PST" duration-ms="9650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PracticeForm_01 -->
+      </class> <!-- ToolsQA_TC.Tests_NF_PracticeForms -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
