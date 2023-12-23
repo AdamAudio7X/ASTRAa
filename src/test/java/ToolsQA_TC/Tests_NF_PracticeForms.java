@@ -11,9 +11,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Tests_NF_PracticeForms {
 
 
-	@Test()
+	@Test(enabled=true)
 	public void Test_PracticeForm_01()
 	{
+		System.out.println("STARTING test: .-----------  Test_PracticeForm_01");
+		
 		System.setProperty("webdriver.gecko.driver", "C:\\webdrivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		
@@ -21,10 +23,12 @@ public class Tests_NF_PracticeForms {
 		
 		Pages_PracticeForm practiceForm = new Pages_PracticeForm(driver);
 		practiceForm.Pop("Bob", "Bell");
+		
+		System.out.println("ENDED test: .-----------  Test_PracticeForm_01");
 	}
 	
 	
-	@Test()
+	@Test(enabled=false)
 	public void Test_PracticeForm_02()
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\webdrivers\\geckodriver.exe");
@@ -35,7 +39,7 @@ public class Tests_NF_PracticeForms {
 		practiceForm.Pop("Peter", "Klim");
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void Test_PracticeForm_03()
 	{
 		WebDriverManager.firefoxdriver().setup();
