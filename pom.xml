@@ -127,8 +127,8 @@
 	        <version>3.0.0-M5</version>
 	        <configuration>
 		       <suiteXmlFiles>
-		          <!--   <suiteXmlFile>${suiteXmlFile_param}</suiteXmlFile>  -->
-		         <suiteXmlFile>TQA_PassFail.xml</suiteXmlFile> 
+		        <suiteXmlFile>${suiteXmlFile_param}</suiteXmlFile>
+		         <!-- <suiteXmlFile>testng.xml</suiteXmlFile>  -->
 		           			 <!-- Suite2and3_Test.xml --><!-- Suite_AC_TAZ.xml Suite_CMD_02 TQA_PassFail.xml testng.xml XSuite_CMD-->
 		          </suiteXmlFiles>
 					
