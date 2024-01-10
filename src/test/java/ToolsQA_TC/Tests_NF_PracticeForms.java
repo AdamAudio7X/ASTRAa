@@ -5,6 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import ToolsQA_Pages.Pages_PracticeForm;
+import UtilitiesForData.App;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -15,6 +16,8 @@ public class Tests_NF_PracticeForms {
 	public void Test_PracticeForm_01()
 	{
 		System.out.println("STARTING test: .-----------  Test_PracticeForm_01");
+
+		System.out.println("BROWSER is: "+ App.browser + " getProperty");
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\webdrivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
