@@ -31,7 +31,7 @@ public class Tests_NF_PracticeForms {
 	}
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void Test_PracticeForm_02()
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\webdrivers\\geckodriver.exe");
