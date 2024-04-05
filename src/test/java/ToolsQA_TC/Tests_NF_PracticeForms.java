@@ -40,6 +40,8 @@ public class Tests_NF_PracticeForms {
 		
 		Pages_PracticeForm practiceForm = new Pages_PracticeForm(driver);
 		practiceForm.Pop("Peter", "Klim");
+
+		System.out.println("ENDED test: .-----------  Test_PracticeForm_02");
 	}
 	
 	@Test(enabled=false)
