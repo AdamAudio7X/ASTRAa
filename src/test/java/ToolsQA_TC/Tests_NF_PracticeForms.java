@@ -15,7 +15,7 @@ public class Tests_NF_PracticeForms {
 	@Test(enabled=true)
 	public void Test_PracticeForm_01()
 	{
-		System.out.println("STARTING test: .-----------  Test_PracticeForm_01---TIME 4PK");
+		System.out.println("STARTING test: .-----------  Test_PracticeForm_01---TIME Branch");
 
 		System.out.println("BROWSER is: "+ App.browser + " App.browser");
 		
