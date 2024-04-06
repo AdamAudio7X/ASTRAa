@@ -27,7 +27,7 @@ public class Tests_NF_PracticeForms {
 		Pages_PracticeForm practiceForm = new Pages_PracticeForm(driver);
 		practiceForm.Pop("Bob", "Bell");
 		
-		System.out.println("ENDED test: .-----------  Test_PracticeForm_01---TIMES2");
+		System.out.println("ENDED test: .-----------  Test_PracticeForm_01---TIMES2X");
 	}
 	
 	
