@@ -15,9 +15,9 @@ public class Tests_NF_PracticeForms {
 	@Test(enabled=true)
 	public void Test_PracticeForm_01()
 	{
-		System.out.println("STARTING test: .-----------  Test_PracticeForm_01");
+		System.out.println("STARTING test: .-----------  Test_PracticeForm_01---TIME 4");
 
-		System.out.println("BROWSER is: "+ App.browser + " getProperty");
+		System.out.println("BROWSER is: "+ App.browser + " App.browser");
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\webdrivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
@@ -27,7 +27,7 @@ public class Tests_NF_PracticeForms {
 		Pages_PracticeForm practiceForm = new Pages_PracticeForm(driver);
 		practiceForm.Pop("Bob", "Bell");
 		
-		System.out.println("ENDED test: .-----------  Test_PracticeForm_01");
+		System.out.println("ENDED test: .-----------  Test_PracticeForm_01---TIMES");
 	}
 	
 	
