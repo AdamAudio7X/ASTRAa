@@ -15,7 +15,9 @@ public class Tests_NF_PracticeForms {
 	@Test(enabled=true)
 	public void Test_PracticeForm_01()
 	{
+
 		System.out.println("STARTING test: .-----------  Test_PracticeForm_01---TIME Branch");
+
 
 		System.out.println("BROWSER is: "+ App.browser + " App.browser");
 		
@@ -31,7 +33,7 @@ public class Tests_NF_PracticeForms {
 	}
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void Test_PracticeForm_02()
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\webdrivers\\geckodriver.exe");
@@ -40,6 +42,8 @@ public class Tests_NF_PracticeForms {
 		
 		Pages_PracticeForm practiceForm = new Pages_PracticeForm(driver);
 		practiceForm.Pop("Peter", "Klim");
+
+		System.out.println("ENDED test: .-----------  Test_PracticeForm_02");
 	}
 	
 	@Test(enabled=false)
