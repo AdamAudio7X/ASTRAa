@@ -27,7 +27,7 @@ public class Tests_NF_PracticeForms {
 		driver.navigate().to("https://demoqa.com/automation-practice-form");
 		
 		Pages_PracticeForm practiceForm = new Pages_PracticeForm(driver);
-		practiceForm.Pop("Bob", "Bell");
+		practiceForm.Pop("Bobby", "Bell");
 		
 		System.out.println("ENDED test: .-----------  Test_PracticeForm_01---TIMES");
 	}
